@@ -1,0 +1,29 @@
+{
+  "name": "blog-graphql-api",
+  "version": "1.0.0",
+  "description": "A simple api for a simple blog :)",
+  "main": "serve.js",
+  "scripts": {
+    "start": "node_modules/.bin/nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andretv/blog-graphql-api.git"
+  },
+  "author": "Andre Vaccari <andrevaccari95@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andretv/blog-graphql-api/issues"
+  },
+  "homepage": "https://github.com/andretv/blog-graphql-api#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.1"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.1",
+    "mongoose": "^5.0.9"
+  }
+}
